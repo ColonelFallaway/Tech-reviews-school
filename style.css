@@ -1,0 +1,65 @@
+* {
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.content {
+    border: 2px solid black;
+    border-radius: 1em;
+    padding: 1em;
+    min-width: 500px;
+    max-width: 30vw;
+    min-height: 200px;
+    text-align: left;
+    white-space: normal;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-middle {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    height: 100vh;
+}
+
+.button {
+    display: inline-block;             /* Makes the anchor behave like a button */
+    padding: 10px 20px;                /* Adds space inside the button */
+    background-color: black;            /* Sets the background color */
+    color: white;                      /* Makes the text white */
+    text-align: center;                /* Centers the text inside the button */
+    text-decoration: none;             /* Removes the underline from the link */
+    border-radius: 1em;                /* Rounds the corners */
+    font-size: 16px;                   /* Adjusts the font size */
+    border: none;                      /* Removes any default border */
+    cursor: pointer;                   /* Shows a pointer when hovering over the button */
+    margin-top: 3em;
+    margin-bottom: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  
+.button:hover {
+background-color: gray;        /* Changes background on hover */
+}
+
+.centertext {
+    text-align: center;
+}
+
+.homebtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 1em;
+    padding: 1em;
+    position: fixed;
+    background-color: black;  
+    text-decoration: none;
+    color: white;
+}
