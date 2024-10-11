@@ -20,6 +20,11 @@
     margin-bottom: 2em;
 }
 
+.img-container {
+    text-align: center;
+    width: 100%;
+}
+
 .content-middle {
     display: flex;
     justify-content: center;
